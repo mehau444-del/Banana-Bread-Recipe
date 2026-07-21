@@ -1,0 +1,13 @@
+.container {
+  display: inlinegrid;
+  grid-template-columns: auto auto auto;
+  background-color: cornsilk;
+  padding: 10px;
+}
+.container div {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
